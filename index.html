@@ -70,7 +70,7 @@ Stéphane Grappelli, aber auch von zeitgenössischen Ensembles wie „Les doigts
      <ul class="w3-ul w3-border w3-white w3-text-grey">
        {% for item in site.data.gigs %}
            <li>
-           &#8226; {{ item.date }} <a href="{{ item.url }}"> {{item.place}} </a>
+           &#8226; {{ item.date }} <a href="{{ item.url }}"> {{ item.place }} </a> {{ item.adress }}
            </li>
        {% endfor %}
          </ul>
