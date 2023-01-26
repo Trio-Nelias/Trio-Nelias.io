@@ -27,13 +27,13 @@ Stéphane Grappelli, aber auch von zeitgenössischen Ensembles wie „Les doigts
        <p style="font-size:30px">Corentin Nelias</p>
        <img src="./assets/images/corentin.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
      </div>
-     <div class="w3-third" style="margin-top:7px">
-       <p style="font-size:25px">Klaus Juergen-Wald</p>
-       <img src="./assets/images/klaus.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%; margin-top:4px">
+     <div class="w3-third" style="margin-top:0px">
+       <p style="font-size:30px">Klaus Wald</p>
+       <img src="./assets/images/klaus.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%; margin-top:-8px">
      </div>
      <div class="w3-third">
        <p style="font-size:30px">Andreas Goetz</p>
-       <img src="./assets/images/andy.jpg" class="w3-round" alt="Random Name" style="width:58%; margin-top:-5px">
+       <img src="./assets/images/andy.jpg" class="w3-round" alt="Random Name" style="width:58%; margin-top:-8px">
      </div>
    </div>
  </div>
@@ -70,7 +70,7 @@ Stéphane Grappelli, aber auch von zeitgenössischen Ensembles wie „Les doigts
      <ul class="w3-ul w3-border w3-white w3-text-grey">
        {% for item in site.data.gigs %}
            <li>
-           &#8226; {{ item.date }} <a href="{{ item.url }}"> {{ item.place }} </a>{{ item.adress }}
+           &#8226; {{ item.date }} <a href="{{ item.url }}"> {{ item.place }}</a>{{ item.adress }}
            </li>
        {% endfor %}
          </ul>
